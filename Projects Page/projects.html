@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Project details, contributions, technologies, live demos, and source code for Harvey Rullan's web development work."
+    />
+    <title>Projects | Harvey Rullan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="projects.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../Landing%20Page/landingpage.html">
+        <span>Portfolio</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        ☰
+      </button>
+
+      <nav
+        class="nav-links"
+        id="primary-navigation"
+        aria-label="Primary navigation"
+      >
+        <a href="../Landing%20Page/landingpage.html">Home</a>
+        <a href="../About%20Me%20Page/aboutme.html">About Me</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="../Contact%20Page/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="projects-hero">
+        <div class="page-shell hero-inner">
+          <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+          <h1>Selected Projects</h1>
+          <p class="hero-intro">
+            A closer look at the problems, features, and tools behind my work.
+            These projects have helped me learn by building, collaborating, and
+            improving one step at a time.
+          </p>
+          <p class="hero-note">Scroll through, or jump to a project:</p>
+          <nav class="project-index" aria-label="Jump to a project">
+            <a href="#oppa-dru">OppaDru</a>
+            <a href="#habitflow">HabitFlow</a>
+            <a href="#health-kiosk">Health Kiosk</a>
+            <a href="#teampulse">TeamPulse</a>
+          </nav>
+        </div>
+      </section>
+
+      <div class="page-shell project-list" id="projects">
+        <article class="project-detail" id="oppa-dru">
+          <div class="project-visual">
+            <img
+              src="../Assets/oppadruscreenshot.png"
+              alt="OppaDru restaurant ordering and management system screenshot"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="project-number">01 / CAPSTONE</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-meta">
+              May 2026 – Present <span>·</span> Team project in progress
+            </p>
+            <h2>OppaDru System</h2>
+            <p class="project-summary">
+              A full-stack, multi-branch restaurant ordering and operations
+              management system built with my capstone team. It unifies customer
+              ordering and day-to-day restaurant workflows in one platform, with
+              role-based access for different operational teams.
+            </p>
+
+            <dl class="project-facts">
+              <div>
+                <dt>My role</dt>
+                <dd>Full-Stack Developer</dd>
+              </div>
+              <div>
+                <dt>Team</dt>
+                <dd>3 developers</dd>
+              </div>
+            </dl>
+
+            <h3>Key features</h3>
+            <ul>
+              <li>
+                Role-based portals for Customer Ordering, Cashier POS, Kitchen
+                Display, Driver Delivery, Admin Operations, and Franchise
+                Management.
+              </li>
+              <li>
+                PayMongo payment gateway integration for automated GCash
+                transactions.
+              </li>
+              <li>Automated email verification for user accounts.</li>
+              <li>
+                Leaflet and OpenStreetMap integration for delivery routing and
+                branch boundary calculations.
+              </li>
+            </ul>
+
+            <div class="contribution">
+              <p>
+                <strong
+                  >My core contributions (Admin &amp; Backoffice Suite):</strong
+                >
+              </p>
+              <ul>
+                <li>
+                  Admin sales analytics and client-side PDF/CSV export engine.
+                </li>
+                <li>Sales target and profit goal monitoring system.</li>
+                <li>Facebook Graph API automated social media posting.</li>
+                <li>
+                  Product catalog, addon, and branch menu inventory management.
+                </li>
+              </ul>
+            </div>
+
+            <h3 class="stack-heading">Technical stack</h3>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>React</span><span>TypeScript</span><span>Vite</span>
+              <span>Tailwind CSS</span><span>Laravel</span><span>PHP</span>
+              <span>Supabase (PostgreSQL)</span><span>PayMongo</span
+              ><span>Leaflet</span><span>Facebook Graph API</span
+              ><span>Render</span>
+            </div>
+            <div class="project-actions">
+              <a
+                class="button button-primary"
+                href="https://oppa-dru-system.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live demo ↗</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://github.com/Masangkay-Albert/OppaDru-System"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Learn more ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-detail" id="habitflow">
+          <div class="project-visual">
+            <img
+              src="../Assets/habitflowscreenshot.png"
+              alt="HabitFlow habit and task tracker screenshot"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="project-number">02 / TEAM PROJECT</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-meta">
+              September 2026 – Present <span>·</span> Team 404 · In progress
+            </p>
+            <h2>HabitFlow</h2>
+            <p class="project-summary">
+              A habit and task tracker that helps people organize projects,
+              tasks, deadlines, and repeating routines in one place. I’m
+              developing it with Team 404.
+            </p>
+
+            <dl class="project-facts">
+              <div>
+                <dt>My role</dt>
+                <dd>Tech Lead</dd>
+              </div>
+              <div>
+                <dt>Team</dt>
+                <dd>Working with five other members</dd>
+              </div>
+            </dl>
+
+            <h3>What it includes</h3>
+            <ul>
+              <li>Sign-up, login, and password reset flows.</li>
+              <li>
+                Username and email availability checks during registration.
+              </li>
+              <li>
+                A default Inbox project created automatically for each new user.
+              </li>
+              <li>
+                An Angular front end connected to an Express and Node.js back
+                end with Supabase PostgreSQL.
+              </li>
+            </ul>
+
+            <p class="contribution">
+              <strong>My contribution:</strong> Built the backend’s
+              authentication and profile features, project and task management
+              APIs, scheduling and organization capabilities, timezone-aware
+              dashboard endpoint, and supporting database migrations and seed
+              tooling.
+            </p>
+
+            <h3>Technical stack</h3>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>Angular</span><span>Express</span><span>Node.js</span>
+              <span>Supabase</span><span>PostgreSQL</span><span>Vercel</span
+              ><span>Render</span>
+            </div>
+            <div class="project-actions">
+              <a
+                class="button button-primary"
+                href="https://project-team-404.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live demo ↗</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://github.com/dlsud-itd/project-team-404"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Learn more ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-detail" id="health-kiosk">
+          <div class="project-visual">
+            <img
+              src="../Assets/healthcarescreenshot.png"
+              alt="Health Self-Check Kiosk BMI screening interface screenshot"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="project-number">03 / WEB APP</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-meta">
+              July 2026 <span>·</span> Campus health concept
+            </p>
+            <h2>Health Self-Check Kiosk</h2>
+            <p class="project-summary">
+              A responsive self-check kiosk designed for campus use. Visitors
+              enter their details and receive a clear BMI result along with
+              simple wellness guidance.
+            </p>
+
+            <dl class="project-facts">
+              <div>
+                <dt>My role</dt>
+                <dd>Developer</dd>
+              </div>
+              <div>
+                <dt>Team</dt>
+                <dd>Solo project</dd>
+              </div>
+            </dl>
+
+            <h3>What it includes</h3>
+            <ul>
+              <li>BMI calculation with color-coded categories.</li>
+              <li>Wellness tips shown alongside each result.</li>
+              <li>
+                Input validation to help keep submissions complete and accurate.
+              </li>
+              <li>
+                Submissions saved to Google Sheets through Google Apps Script,
+                without a separate server.
+              </li>
+            </ul>
+
+            <h3>Technical stack</h3>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span
+              ><span>Google Apps Script</span>
+            </div>
+            <div class="project-actions">
+              <a
+                class="button button-primary"
+                href="https://rullan-harvey-laurence.github.io/Health-Checker-Kiosk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live demo ↗</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://github.com/Rullan-Harvey-Laurence/Health-Checker-Kiosk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Learn more ↗</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article class="project-detail" id="teampulse">
+          <div class="project-visual">
+            <img
+              src="../Assets/teampulse_analyticsdashboardwidget.png"
+              alt="TeamPulse analytics dashboard widget screenshot"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="project-number">04 / FRONT-END</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-meta">
+              September 2026 <span>·</span> Front-end project
+            </p>
+            <h2>TeamPulse: Analytics Dashboard Widget</h2>
+            <p class="project-summary">
+              A compact workload dashboard widget that lays out team members as
+              cards and makes it easier to find the people or groups you want to
+              check in on.
+            </p>
+
+            <dl class="project-facts">
+              <div>
+                <dt>My role</dt>
+                <dd>Developer</dd>
+              </div>
+              <div>
+                <dt>Team</dt>
+                <dd>Solo project</dd>
+              </div>
+            </dl>
+
+            <h3>What it includes</h3>
+            <ul>
+              <li>A card grid for viewing team workload at a glance.</li>
+              <li>Name search to quickly find a team member.</li>
+              <li>All, Engineering, Design, and QA filters.</li>
+              <li>
+                Labels and ARIA attributes to make controls more accessible to
+                screen readers.
+              </li>
+            </ul>
+
+            <h3>Technical stack</h3>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a
+                class="button button-primary"
+                href="https://rullan-harvey-laurence.github.io/Rullan_Activity4_-The-Analytics-Dashboard-Widget_BIT44/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live demo ↗</a
+              >
+              <a
+                class="button button-secondary"
+                href="https://github.com/Rullan-Harvey-Laurence/Rullan_Activity4_-The-Analytics-Dashboard-Widget_BIT44"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Learn more ↗</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <section class="closing-note">
+        <p>
+          Every project is a chance to learn something new and get a little
+          better at building useful things.
+        </p>
+        <a href="../Landing%20Page/landingpage.html">Back to home ↑</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="../Landing%20Page/landingpage.html">
+        <span>Portfolio</span>
+      </a>
+
+      <div class="footer-nav">
+        <a href="../Landing%20Page/landingpage.html">Home</a>
+        <a href="../About%20Me%20Page/aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="../Contact%20Page/contact.html">Contact</a>
+      </div>
+
+      <small
+        >© <span class="year"></span> Harvey Laurence P. Rullan. All rights
+        reserved.</small
+      >
+    </footer>
+  </body>
+</html>
